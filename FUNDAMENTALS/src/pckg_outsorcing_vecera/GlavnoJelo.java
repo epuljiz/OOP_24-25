@@ -17,4 +17,8 @@ public class GlavnoJelo {
                 ", cijena=" + cijena +
                 '}';
     }
+    
+    public double getPrice() {
+        return this.cijena;
+    }
 }
