@@ -16,6 +16,6 @@ public class Vecera {
     }
 
     public double finalPrice(){
-        return predjelo.getPrice() + glavnoJelo.getPrice + desert.getPrice();
+        return predjelo.getPrice() + glavnoJelo.getPrice() + desert.getPrice();
     }
 }
